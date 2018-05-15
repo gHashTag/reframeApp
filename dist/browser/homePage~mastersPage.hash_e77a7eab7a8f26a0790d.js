@@ -1,99 +1,4 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, {
-/******/ 				configurable: false,
-/******/ 				enumerable: true,
-/******/ 				get: getter
-/******/ 			});
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
-/******/
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ "./pages/mastersPage.config.js":
-/*!*************************************!*\
-  !*** ./pages/mastersPage.config.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _views_Masters__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/Masters */ "./views/Masters/index.js");
-
-
-
-
-const MastersPage = {
-  route: '/masters/master/:params*',
-  view: _views_Masters__WEBPACK_IMPORTED_MODULE_0__["default"],
-  title: 'Masters'
-};
-/* harmony default export */ __webpack_exports__["default"] = (MastersPage);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["homePage~mastersPage"],{
 
 /***/ "./views/ArrowBack.png":
 /*!*****************************!*\
@@ -127,21 +32,21 @@ module.exports = __webpack_require__.p + "ArrowNext.hash_9de9dcd27caf245bc1bcc8a
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Master; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-native-web/dist/exports/StyleSheet */ "react-native-web/dist/exports/StyleSheet");
+/* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-native-web/dist/exports/StyleSheet */ "./node_modules/react-native-web/dist/exports/StyleSheet/index.js");
 /* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-native-web/dist/exports/TouchableOpacity */ "react-native-web/dist/exports/TouchableOpacity");
+/* harmony import */ var react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-native-web/dist/exports/TouchableOpacity */ "./node_modules/react-native-web/dist/exports/TouchableOpacity/index.js");
 /* harmony import */ var react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-native-web/dist/exports/Dimensions */ "react-native-web/dist/exports/Dimensions");
+/* harmony import */ var react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-native-web/dist/exports/Dimensions */ "./node_modules/react-native-web/dist/exports/Dimensions/index.js");
 /* harmony import */ var react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-native-web/dist/exports/Image */ "react-native-web/dist/exports/Image");
+/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-native-web/dist/exports/Image */ "./node_modules/react-native-web/dist/exports/Image/index.js");
 /* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-native-web/dist/exports/View */ "react-native-web/dist/exports/View");
+/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-native-web/dist/exports/View */ "./node_modules/react-native-web/dist/exports/View/index.js");
 /* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-native-web/dist/exports/Text */ "react-native-web/dist/exports/Text");
+/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-native-web/dist/exports/Text */ "./node_modules/react-native-web/dist/exports/Text/index.js");
 /* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "lodash");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./data.json */ "./views/Masters/data.json");
 var _data_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/Object.assign({}, _data_json__WEBPACK_IMPORTED_MODULE_8__, {"default": _data_json__WEBPACK_IMPORTED_MODULE_8__});
@@ -172,7 +77,13 @@ var _data_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/Object.assi
 const win = react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3___default.a.get('window');
 
 const styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1___default.a.create({
-  avatar: {}
+  avatar: {
+    position: 'absolute',
+    left: '8%',
+    bottom: 0,
+    width: 500,
+    height: 500
+  }
 });
 
 class Master extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
@@ -218,14 +129,11 @@ class Master extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
     const store = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { name: match.params.name });
     const { img, title, subTitle, info } = store;
 
+    //const { avatar } = this.styles
+    //<Image source={img} style={avatar} />
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
       react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-      { style: { flex: 1, backgroundColor: 'gold' } },
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { flex: 1, alignItems: 'flex-end' } },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, { source: img, style: { width: 500, height: 500 } })
-      ),
+      null,
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
         react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
         { style: { position: 'absolute', top: '30.9%', right: '15%', width: '40%' } },
@@ -328,11 +236,10 @@ module.exports = __webpack_require__.p + "dotdotdot.hash_635005ba757a610c71154c3
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "react-router-dom");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_burger_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-burger-menu */ "react-burger-menu");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+/* harmony import */ var react_burger_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-burger-menu */ "./node_modules/react-burger-menu/lib/BurgerMenu.js");
 /* harmony import */ var react_burger_menu__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_burger_menu__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Master__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Master */ "./views/Masters/Master.js");
 /* harmony import */ var _dotdotdot_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./dotdotdot.svg */ "./views/Masters/dotdotdot.svg");
@@ -501,9 +408,9 @@ class Masters extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
   !*** ./views/Masters/styles.css ***!
   \**********************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -517,9 +424,9 @@ class Masters extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return Header; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-responsive */ "react-responsive");
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-responsive */ "./node_modules/react-responsive/dist/react-responsive.js");
 /* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Mansion_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Mansion.svg */ "./views/common/Mansion.svg");
 /* harmony import */ var _Mansion_svg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Mansion_svg__WEBPACK_IMPORTED_MODULE_2__);
@@ -657,140 +564,7 @@ __webpack_require__.r(__webpack_exports__);
 //export * from './PriceCard'
 //export * from './NoMatch'
 
-/***/ }),
-
-/***/ 2:
-/*!*******************************************!*\
-  !*** multi ./pages/mastersPage.config.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! /Users/xyz/reframeApp/pages/mastersPage.config.js */"./pages/mastersPage.config.js");
-
-
-/***/ }),
-
-/***/ "lodash":
-/*!*************************!*\
-  !*** external "lodash" ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("lodash");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-burger-menu":
-/*!************************************!*\
-  !*** external "react-burger-menu" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-burger-menu");
-
-/***/ }),
-
-/***/ "react-native-web/dist/exports/Dimensions":
-/*!***********************************************************!*\
-  !*** external "react-native-web/dist/exports/Dimensions" ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-native-web/dist/exports/Dimensions");
-
-/***/ }),
-
-/***/ "react-native-web/dist/exports/Image":
-/*!******************************************************!*\
-  !*** external "react-native-web/dist/exports/Image" ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-native-web/dist/exports/Image");
-
-/***/ }),
-
-/***/ "react-native-web/dist/exports/StyleSheet":
-/*!***********************************************************!*\
-  !*** external "react-native-web/dist/exports/StyleSheet" ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-native-web/dist/exports/StyleSheet");
-
-/***/ }),
-
-/***/ "react-native-web/dist/exports/Text":
-/*!*****************************************************!*\
-  !*** external "react-native-web/dist/exports/Text" ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-native-web/dist/exports/Text");
-
-/***/ }),
-
-/***/ "react-native-web/dist/exports/TouchableOpacity":
-/*!*****************************************************************!*\
-  !*** external "react-native-web/dist/exports/TouchableOpacity" ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-native-web/dist/exports/TouchableOpacity");
-
-/***/ }),
-
-/***/ "react-native-web/dist/exports/View":
-/*!*****************************************************!*\
-  !*** external "react-native-web/dist/exports/View" ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-native-web/dist/exports/View");
-
-/***/ }),
-
-/***/ "react-responsive":
-/*!***********************************!*\
-  !*** external "react-responsive" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-responsive");
-
-/***/ }),
-
-/***/ "react-router-dom":
-/*!***********************************!*\
-  !*** external "react-router-dom" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-router-dom");
-
 /***/ })
 
-/******/ });
-//# sourceMappingURL=mastersPage-nodejs.js.map
+}]);
+//# sourceMappingURL=homePage~mastersPage.hash_e77a7eab7a8f26a0790d.js.map

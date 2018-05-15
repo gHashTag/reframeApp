@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react' 
-import { TouchableOpacity, Dimensions, Image, View, Text } from 'react-native'
+import { StyleSheet, TouchableOpacity, Dimensions, Image, View, Text } from 'react-native'
 import _ from 'lodash'
 import data from './data.json'
 import './styles.css'
@@ -8,6 +8,11 @@ import ArrowNext from '../ArrowNext.png'
 import ArrowBack from '../ArrowBack.png'
 
 const win = Dimensions.get('window')
+
+const styles = StyleSheet.create({
+  avatar: { 
+  }
+})
 
 export default class Master extends PureComponent {
   onPressNext = match => {
@@ -43,8 +48,10 @@ export default class Master extends PureComponent {
     const { img, title, subTitle, info } = store
 
     return (
-      <View>
-        <Image source={img} style={{ position: 'absolute', left: '8%', bottom: 0, width: 500, height: 500 }} />
+      <View style={{ flex: 1, backgroundColor: 'gold' }}>
+        <View style={{ flex: 1, alignItems: 'flex-end' }}>
+          <Image source={img} style={{ width: 500, height: 500  }} />
+        </View>
         <View style={{ position: 'absolute', top: '30.9%', right: '15%', width: '40%' }}>
           <View className='stripe pink' />
         </View>

@@ -67,31 +67,35 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/mastersPage.config.js":
-/*!*************************************!*\
-  !*** ./pages/mastersPage.config.js ***!
-  \*************************************/
+/***/ "./pages/homePage.config.js":
+/*!**********************************!*\
+  !*** ./pages/homePage.config.js ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _views_Masters__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/Masters */ "./views/Masters/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _views_homeView__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../views/homeView */ "./views/homeView.js");
 
 
 
 
-const MastersPage = {
-  route: '/masters/master/:params*',
-  view: _views_Masters__WEBPACK_IMPORTED_MODULE_0__["default"],
-  title: 'Masters'
+
+const HomePage = {
+    route: '/:params*',
+    view: _views_homeView__WEBPACK_IMPORTED_MODULE_1__["default"],
+    title: 'Home'
 };
-/* harmony default export */ __webpack_exports__["default"] = (MastersPage);
+
+/* harmony default export */ __webpack_exports__["default"] = (HomePage);
 
 /***/ }),
 
@@ -117,6 +121,64 @@ module.exports = __webpack_require__.p + "ArrowNext.hash_9de9dcd27caf245bc1bcc8a
 
 /***/ }),
 
+/***/ "./views/Contacts/index.js":
+/*!*********************************!*\
+  !*** ./views/Contacts/index.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+
+
+const Contacts = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+  'div',
+  null,
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+    'h2',
+    null,
+    ' Contacts'
+  )
+);
+
+/* harmony default export */ __webpack_exports__["default"] = (Contacts);
+
+/***/ }),
+
+/***/ "./views/Home/index.js":
+/*!*****************************!*\
+  !*** ./views/Home/index.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+
+
+const Home = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+  'div',
+  null,
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+    'h2',
+    null,
+    'Home - Hello World'
+  )
+);
+
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
 /***/ "./views/Masters/Master.js":
 /*!*********************************!*\
   !*** ./views/Masters/Master.js ***!
@@ -129,29 +191,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Master; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-native-web/dist/exports/StyleSheet */ "react-native-web/dist/exports/StyleSheet");
-/* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-native-web/dist/exports/TouchableOpacity */ "react-native-web/dist/exports/TouchableOpacity");
-/* harmony import */ var react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-native-web/dist/exports/Dimensions */ "react-native-web/dist/exports/Dimensions");
-/* harmony import */ var react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-native-web/dist/exports/Image */ "react-native-web/dist/exports/Image");
-/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-native-web/dist/exports/View */ "react-native-web/dist/exports/View");
-/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-native-web/dist/exports/Text */ "react-native-web/dist/exports/Text");
-/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lodash */ "lodash");
-/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./data.json */ "./views/Masters/data.json");
-var _data_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/Object.assign({}, _data_json__WEBPACK_IMPORTED_MODULE_8__, {"default": _data_json__WEBPACK_IMPORTED_MODULE_8__});
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./styles.css */ "./views/Masters/styles.css");
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../common */ "./views/common/index.js");
-/* harmony import */ var _ArrowNext_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../ArrowNext.png */ "./views/ArrowNext.png");
-/* harmony import */ var _ArrowNext_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_ArrowNext_png__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _ArrowBack_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../ArrowBack.png */ "./views/ArrowBack.png");
-/* harmony import */ var _ArrowBack_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_ArrowBack_png__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-native-web/dist/exports/TouchableOpacity */ "react-native-web/dist/exports/TouchableOpacity");
+/* harmony import */ var react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-native-web/dist/exports/Dimensions */ "react-native-web/dist/exports/Dimensions");
+/* harmony import */ var react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-native-web/dist/exports/Image */ "react-native-web/dist/exports/Image");
+/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-native-web/dist/exports/View */ "react-native-web/dist/exports/View");
+/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-native-web/dist/exports/Text */ "react-native-web/dist/exports/Text");
+/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lodash */ "lodash");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./data.json */ "./views/Masters/data.json");
+var _data_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/Object.assign({}, _data_json__WEBPACK_IMPORTED_MODULE_7__, {"default": _data_json__WEBPACK_IMPORTED_MODULE_7__});
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./styles.css */ "./views/Masters/styles.css");
+/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../common */ "./views/common/index.js");
+/* harmony import */ var _ArrowNext_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../ArrowNext.png */ "./views/ArrowNext.png");
+/* harmony import */ var _ArrowNext_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_ArrowNext_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _ArrowBack_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../ArrowBack.png */ "./views/ArrowBack.png");
+/* harmony import */ var _ArrowBack_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_ArrowBack_png__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
@@ -168,12 +228,7 @@ var _data_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/Object.assi
 
 
 
-
-const win = react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3___default.a.get('window');
-
-const styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1___default.a.create({
-  avatar: {}
-});
+const win = react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_2___default.a.get('window');
 
 class Master extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
   constructor(...args) {
@@ -184,13 +239,13 @@ class Master extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       writable: true,
       value: match => {
         return () => {
-          const now = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { name: match.params.name });
+          const now = lodash__WEBPACK_IMPORTED_MODULE_6___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_7__, { name: match.params.name });
           const { history } = this.props;
-          if (_data_json__WEBPACK_IMPORTED_MODULE_8__.length !== now.id + 1) {
-            const next = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { id: now.id + 1 });
+          if (_data_json__WEBPACK_IMPORTED_MODULE_7__.length !== now.id + 1) {
+            const next = lodash__WEBPACK_IMPORTED_MODULE_6___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_7__, { id: now.id + 1 });
             history.push(`/masters/master/${next.name}`);
           } else {
-            history.push(`/masters/master/${_data_json__WEBPACK_IMPORTED_MODULE_8__[0].name}`);
+            history.push(`/masters/master/${_data_json__WEBPACK_IMPORTED_MODULE_7__[0].name}`);
           }
         };
       }
@@ -199,13 +254,13 @@ class Master extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       writable: true,
       value: match => {
         return () => {
-          const now = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { name: match.params.name });
+          const now = lodash__WEBPACK_IMPORTED_MODULE_6___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_7__, { name: match.params.name });
           const { history } = this.props;
           if (now.id !== 0) {
-            const back = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { id: now.id - 1 });
+            const back = lodash__WEBPACK_IMPORTED_MODULE_6___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_7__, { id: now.id - 1 });
             history.push(`/masters/master/${back.name}`);
           } else {
-            const lengthdata = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { id: _data_json__WEBPACK_IMPORTED_MODULE_8__.length - 1 });
+            const lengthdata = lodash__WEBPACK_IMPORTED_MODULE_6___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_7__, { id: _data_json__WEBPACK_IMPORTED_MODULE_7__.length - 1 });
             history.push(`/masters/master/${lengthdata.name}`);
           }
         };
@@ -215,51 +270,47 @@ class Master extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
 
   render() {
     const { match } = this.props;
-    const store = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { name: match.params.name });
+    const store = lodash__WEBPACK_IMPORTED_MODULE_6___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_7__, { name: match.params.name });
     const { img, title, subTitle, info } = store;
 
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-      react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-      { style: { flex: 1, backgroundColor: 'gold' } },
+      react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a,
+      null,
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_3___default.a, { source: img, style: { position: 'absolute', left: '8%', bottom: 0, width: 500, height: 500 } }),
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { flex: 1, alignItems: 'flex-end' } },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, { source: img, style: { width: 500, height: 500 } })
-      ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
+        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a,
         { style: { position: 'absolute', top: '30.9%', right: '15%', width: '40%' } },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a, { className: 'stripe pink' })
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a, { className: 'stripe pink' })
       ),
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
+        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a,
         { style: { position: 'absolute', top: '25%', right: '15%' } },
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default.a,
+          react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_5___default.a,
           { style: { fontFamily: 'Museo500', fontSize: 40, textAlign: 'right' } },
           title
         )
       ),
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
+        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a,
         { style: { position: 'absolute', top: '32%', right: '15%' } },
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default.a,
+          react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_5___default.a,
           { style: { fontFamily: 'CirceExtraLight', fontSize: 22, textAlign: 'right' } },
           subTitle
         )
       ),
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
+        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a,
         { style: { position: 'absolute', width: '40%', top: '38%', right: '15%' } },
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
+          react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a,
           { style: { flex: 1, flexDirection: 'row' } },
           react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-            react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default.a,
+            react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_5___default.a,
             { style: { color: '#707070', fontFamily: 'CirceExtraLight', fontSize: 17, lineHeight: 20 } },
             react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-              react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default.a,
+              react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_5___default.a,
               { style: { color: '#000', fontFamily: 'Museo500', fontSize: 40, lineHeight: 1, bottom: 0 } },
               info.charAt(0)
             ),
@@ -268,26 +319,26 @@ class Master extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
         )
       ),
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
+        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a,
         { style: { position: 'absolute', width: '7%', top: '43%', right: '5%' } },
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2___default.a,
+          react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_1___default.a,
           { onPress: this.onPressNext(match) },
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, {
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_3___default.a, {
             style: { height: 100, width: 100 },
-            source: _ArrowNext_png__WEBPACK_IMPORTED_MODULE_11___default.a
+            source: _ArrowNext_png__WEBPACK_IMPORTED_MODULE_10___default.a
           })
         )
       ),
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
+        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_4___default.a,
         { style: { position: 'absolute', width: '7%', top: '43%', left: '5%' } },
         parseInt(match.params.id, 10) !== 0 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2___default.a,
+          react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_1___default.a,
           { onPress: this.onPressBack(match) },
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, {
+          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_3___default.a, {
             style: { height: 100, width: 100 },
-            source: _ArrowBack_png__WEBPACK_IMPORTED_MODULE_12___default.a
+            source: _ArrowBack_png__WEBPACK_IMPORTED_MODULE_11___default.a
           })
         )
       )
@@ -659,14 +710,64 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2:
-/*!*******************************************!*\
-  !*** multi ./pages/mastersPage.config.js ***!
-  \*******************************************/
+/***/ "./views/homeView.js":
+/*!***************************!*\
+  !*** ./views/homeView.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "react-router-dom");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Masters__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Masters */ "./views/Masters/index.js");
+/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home */ "./views/Home/index.js");
+/* harmony import */ var _Contacts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Contacts */ "./views/Contacts/index.js");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.css */ "./views/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+
+
+
+
+const HomeView = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+  'div',
+  null,
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], { exact: true, path: '/', component: _Home__WEBPACK_IMPORTED_MODULE_3__["default"] }),
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], { path: '/masters', component: _Masters__WEBPACK_IMPORTED_MODULE_2__["default"] }),
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], { path: '/contacts', component: _Contacts__WEBPACK_IMPORTED_MODULE_4__["default"] })
+);
+
+/* harmony default export */ __webpack_exports__["default"] = (HomeView);
+
+/***/ }),
+
+/***/ "./views/index.css":
+/*!*************************!*\
+  !*** ./views/index.css ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 1:
+/*!****************************************!*\
+  !*** multi ./pages/homePage.config.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/xyz/reframeApp/pages/mastersPage.config.js */"./pages/mastersPage.config.js");
+module.exports = __webpack_require__(/*! /Users/xyz/reframeApp/pages/homePage.config.js */"./pages/homePage.config.js");
 
 
 /***/ }),
@@ -726,17 +827,6 @@ module.exports = require("react-native-web/dist/exports/Image");
 
 /***/ }),
 
-/***/ "react-native-web/dist/exports/StyleSheet":
-/*!***********************************************************!*\
-  !*** external "react-native-web/dist/exports/StyleSheet" ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-native-web/dist/exports/StyleSheet");
-
-/***/ }),
-
 /***/ "react-native-web/dist/exports/Text":
 /*!*****************************************************!*\
   !*** external "react-native-web/dist/exports/Text" ***!
@@ -793,4 +883,4 @@ module.exports = require("react-router-dom");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=mastersPage-nodejs.js.map
+//# sourceMappingURL=homePage-nodejs.js.map
