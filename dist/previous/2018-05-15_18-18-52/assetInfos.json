@@ -1,0 +1,47 @@
+{
+  "buildTime": "2018-05-15T15:18:58.072Z",
+  "staticAssetsDir": "/Users/xyz/reframeApp/dist/browser",
+  "buildEnv": "development",
+  "pageAssets": {
+    "CounterPage": {
+      "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/CounterPage-nodejs.js",
+      "scripts": [
+        "/vendors~CounterPage~GameOfThronesPage~TimePage~WelcomePage.hash_70811f5f1f207adcadbe.js",
+        "/CounterPage.hash_65087cc5eb2619acd722.js",
+        "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
+      ],
+      "styles": [
+        "/CounterPage.style.hash_ac7a13203062bc3efc44.css"
+      ]
+    },
+    "GameOfThronesPage": {
+      "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/GameOfThronesPage-nodejs.js",
+      "styles": [
+        "/GameOfThronesPage.style.hash_ac7a13203062bc3efc44.css"
+      ],
+      "scripts": [
+        "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
+      ]
+    },
+    "TimePage": {
+      "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/TimePage-nodejs.js",
+      "scripts": [
+        "/vendors~CounterPage~GameOfThronesPage~TimePage~WelcomePage.hash_70811f5f1f207adcadbe.js",
+        "/TimePage.hash_3ae5dfec52ad4cc498ee.js",
+        "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
+      ],
+      "styles": [
+        "/TimePage.style.hash_ac7a13203062bc3efc44.css"
+      ]
+    },
+    "WelcomePage": {
+      "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/WelcomePage-nodejs.js",
+      "styles": [
+        "/WelcomePage.style.hash_ac7a13203062bc3efc44.css"
+      ],
+      "scripts": [
+        "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
+      ]
+    }
+  }
+}
