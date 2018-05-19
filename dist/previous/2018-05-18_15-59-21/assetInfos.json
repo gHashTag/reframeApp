@@ -1,0 +1,44 @@
+{
+  "buildTime": "2018-05-18T13:52:10.284Z",
+  "staticAssetsDir": "/Users/xyz/reframeApp/dist/browser",
+  "buildEnv": "development",
+  "pageAssets": {
+    "contactsPage": {
+      "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/contactsPage-nodejs.js",
+      "scripts": [
+        "/vendors~contactsPage~homePage~mastersPage.hash_6246ca43c6a269e7724c.js",
+        "/contactsPage.hash_4dfe6a258999d3827c12.js",
+        "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
+      ],
+      "styles": [
+        "/contactsPage.style.hash_ef9ab0b6b408f7c9f52d.css"
+      ]
+    },
+    "homePage": {
+      "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/homePage-nodejs.js",
+      "scripts": [
+        "/vendors~contactsPage~homePage~mastersPage.hash_6246ca43c6a269e7724c.js",
+        "/vendors~homePage~mastersPage.hash_1bd6abac524e8eb3166c.js",
+        "/homePage~mastersPage.hash_7a69b72bce72c55df798.js",
+        "/homePage.hash_48ee5c178ab70aa541b8.js",
+        "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
+      ],
+      "styles": [
+        "/homePage~mastersPage.style.hash_8182cb1045b634b29f11.css"
+      ]
+    },
+    "mastersPage": {
+      "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/mastersPage-nodejs.js",
+      "scripts": [
+        "/vendors~contactsPage~homePage~mastersPage.hash_6246ca43c6a269e7724c.js",
+        "/vendors~homePage~mastersPage.hash_1bd6abac524e8eb3166c.js",
+        "/homePage~mastersPage.hash_7a69b72bce72c55df798.js",
+        "/mastersPage.hash_c1a12ba8593d9a055cd2.js",
+        "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
+      ],
+      "styles": [
+        "/homePage~mastersPage.style.hash_8182cb1045b634b29f11.css"
+      ]
+    }
+  }
+}

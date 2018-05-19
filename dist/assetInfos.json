@@ -1,5 +1,5 @@
 {
-  "buildTime": "2018-05-15T17:58:51.902Z",
+  "buildTime": "2018-05-19T15:19:07.143Z",
   "staticAssetsDir": "/Users/xyz/reframeApp/dist/browser",
   "buildEnv": "development",
   "pageAssets": {
@@ -7,22 +7,24 @@
       "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/contactsPage-nodejs.js",
       "scripts": [
         "/vendors~contactsPage~homePage~mastersPage.hash_6246ca43c6a269e7724c.js",
-        "/contactsPage.hash_8babc806177c3b09ae4e.js",
+        "/contactsPage.hash_d741934be8e4656ed8f9.js",
         "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
       ],
-      "styles": []
+      "styles": [
+        "/contactsPage.style.hash_457ee03b85b63fb4c113.css"
+      ]
     },
     "homePage": {
       "pageFileTranspiled": "/Users/xyz/reframeApp/dist/nodejs/homePage-nodejs.js",
       "scripts": [
         "/vendors~contactsPage~homePage~mastersPage.hash_6246ca43c6a269e7724c.js",
         "/vendors~homePage~mastersPage.hash_1bd6abac524e8eb3166c.js",
-        "/homePage~mastersPage.hash_2dd83fc1446979996e9c.js",
-        "/homePage.hash_575ae7c43d870f5546e3.js",
+        "/homePage~mastersPage.hash_e11369cfa20f68cc724e.js",
+        "/homePage.hash_86a37efc2701de07d688.js",
         "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
       ],
       "styles": [
-        "/homePage~mastersPage.style.hash_b04ea206e112ba0cc55b.css",
+        "/homePage~mastersPage.style.hash_457ee03b85b63fb4c113.css",
         "/homePage.style.hash_9f408d03b77b3de98473.css"
       ]
     },
@@ -31,12 +33,12 @@
       "scripts": [
         "/vendors~contactsPage~homePage~mastersPage.hash_6246ca43c6a269e7724c.js",
         "/vendors~homePage~mastersPage.hash_1bd6abac524e8eb3166c.js",
-        "/homePage~mastersPage.hash_2dd83fc1446979996e9c.js",
-        "/mastersPage.hash_706612900d6c914c9417.js",
+        "/homePage~mastersPage.hash_e11369cfa20f68cc724e.js",
+        "/mastersPage.hash_894d0e482249ac329cc2.js",
         "/autoreload-client.hash_ab413d4732493ec2f6fa.js"
       ],
       "styles": [
-        "/homePage~mastersPage.style.hash_b04ea206e112ba0cc55b.css"
+        "/homePage~mastersPage.style.hash_457ee03b85b63fb4c113.css"
       ]
     }
   }

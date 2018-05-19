@@ -72,6 +72,17 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./index.css":
+/*!*******************!*\
+  !*** ./index.css ***!
+  \*******************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./pages/homePage.config.js":
 /*!**********************************!*\
   !*** ./pages/homePage.config.js ***!
@@ -132,19 +143,57 @@ module.exports = __webpack_require__.p + "ArrowNext.hash_9de9dcd27caf245bc1bcc8a
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-native-web/dist/exports/StyleSheet */ "react-native-web/dist/exports/StyleSheet");
+/* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-native-web/dist/exports/Text */ "react-native-web/dist/exports/Text");
+/* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-native-web/dist/exports/View */ "react-native-web/dist/exports/View");
+/* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-native-web/dist/exports/Image */ "react-native-web/dist/exports/Image");
+/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../index.css */ "./index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_5__);
 
 
 
 
-const Contacts = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-  'div',
-  null,
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-    'h2',
-    null,
-    ' Contacts'
-  )
-);
+
+
+
+
+
+
+class Contacts extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
+  render() {
+    const img = "http://www.cityretreat.ru/static/media/8.737bc909.png";
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+      react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3___default.a,
+      { style: styles.container },
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3___default.a,
+        { style: { position: 'absolute', top: '50%', right: '15%' } },
+        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
+          react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_2___default.a,
+          { style: { fontFamily: 'Museo500', fontSize: 80, textAlign: 'right' } },
+          'Hello!!!!'
+        )
+      ),
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, { source: img, style: { position: 'absolute', left: '8%', bottom: 0, width: 500, height: 500 } })
+    );
+  }
+}
+
+const styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1___default.a.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'gold'
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10
+  }
+});
 
 /* harmony default export */ __webpack_exports__["default"] = (Contacts);
 
@@ -188,7 +237,6 @@ const Home = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Master; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-native-web/dist/exports/StyleSheet */ "react-native-web/dist/exports/StyleSheet");
@@ -207,13 +255,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./data.json */ "./views/Masters/data.json");
 var _data_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/Object.assign({}, _data_json__WEBPACK_IMPORTED_MODULE_8__, {"default": _data_json__WEBPACK_IMPORTED_MODULE_8__});
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./styles.css */ "./views/Masters/styles.css");
-/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../common */ "./views/common/index.js");
-/* harmony import */ var _ArrowNext_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../ArrowNext.png */ "./views/ArrowNext.png");
-/* harmony import */ var _ArrowNext_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_ArrowNext_png__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _ArrowBack_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../ArrowBack.png */ "./views/ArrowBack.png");
-/* harmony import */ var _ArrowBack_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_ArrowBack_png__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../common */ "./views/common/index.js");
+/* harmony import */ var _ArrowNext_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../ArrowNext.png */ "./views/ArrowNext.png");
+/* harmony import */ var _ArrowNext_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_ArrowNext_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _ArrowBack_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../ArrowBack.png */ "./views/ArrowBack.png");
+/* harmony import */ var _ArrowBack_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_ArrowBack_png__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../index.css */ "./index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_12__);
 
 
 
@@ -233,129 +281,39 @@ var _data_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/Object.assi
 
 const win = react_native_web_dist_exports_Dimensions__WEBPACK_IMPORTED_MODULE_3___default.a.get('window');
 
-const styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1___default.a.create({
-  avatar: {}
-});
-
 class Master extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
-  constructor(...args) {
-    var _temp;
-
-    return _temp = super(...args), Object.defineProperty(this, 'onPressNext', {
-      enumerable: true,
-      writable: true,
-      value: match => {
-        return () => {
-          const now = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { name: match.params.name });
-          const { history } = this.props;
-          if (_data_json__WEBPACK_IMPORTED_MODULE_8__.length !== now.id + 1) {
-            const next = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { id: now.id + 1 });
-            history.push(`/masters/master/${next.name}`);
-          } else {
-            history.push(`/masters/master/${_data_json__WEBPACK_IMPORTED_MODULE_8__[0].name}`);
-          }
-        };
-      }
-    }), Object.defineProperty(this, 'onPressBack', {
-      enumerable: true,
-      writable: true,
-      value: match => {
-        return () => {
-          const now = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { name: match.params.name });
-          const { history } = this.props;
-          if (now.id !== 0) {
-            const back = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { id: now.id - 1 });
-            history.push(`/masters/master/${back.name}`);
-          } else {
-            const lengthdata = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { id: _data_json__WEBPACK_IMPORTED_MODULE_8__.length - 1 });
-            history.push(`/masters/master/${lengthdata.name}`);
-          }
-        };
-      }
-    }), _temp;
-  }
-
   render() {
-    const { match } = this.props;
-    const store = lodash__WEBPACK_IMPORTED_MODULE_7___default.a.find(_data_json__WEBPACK_IMPORTED_MODULE_8__, { name: match.params.name });
-    const { img, title, subTitle, info } = store;
-
+    const img = "http://www.cityretreat.ru/static/media/8.737bc909.png";
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
       react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-      { style: { flex: 1, backgroundColor: 'gold' } },
+      { style: styles.container },
       react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
         react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { flex: 1, alignItems: 'flex-end' } },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, { source: img, style: { width: 500, height: 500 } })
-      ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { position: 'absolute', top: '30.9%', right: '15%', width: '40%' } },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a, { className: 'stripe pink' })
-      ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { position: 'absolute', top: '25%', right: '15%' } },
+        { style: { position: 'absolute', top: '50%', right: '15%' } },
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
           react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default.a,
-          { style: { fontFamily: 'Museo500', fontSize: 40, textAlign: 'right' } },
-          title
+          { style: { fontFamily: 'Museo500', fontSize: 80, textAlign: 'right' } },
+          'Hello world'
         )
       ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { position: 'absolute', top: '32%', right: '15%' } },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default.a,
-          { style: { fontFamily: 'CirceExtraLight', fontSize: 22, textAlign: 'right' } },
-          subTitle
-        )
-      ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { position: 'absolute', width: '40%', top: '38%', right: '15%' } },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-          { style: { flex: 1, flexDirection: 'row' } },
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-            react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default.a,
-            { style: { color: '#707070', fontFamily: 'CirceExtraLight', fontSize: 17, lineHeight: 20 } },
-            react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-              react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_6___default.a,
-              { style: { color: '#000', fontFamily: 'Museo500', fontSize: 40, lineHeight: 1, bottom: 0 } },
-              info.charAt(0)
-            ),
-            info.substring(1)
-          )
-        )
-      ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { position: 'absolute', width: '7%', top: '43%', right: '5%' } },
-        react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2___default.a,
-          { onPress: this.onPressNext(match) },
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, {
-            style: { height: 100, width: 100 },
-            source: _ArrowNext_png__WEBPACK_IMPORTED_MODULE_11___default.a
-          })
-        )
-      ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_5___default.a,
-        { style: { position: 'absolute', width: '7%', top: '43%', left: '5%' } },
-        parseInt(match.params.id, 10) !== 0 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-          react_native_web_dist_exports_TouchableOpacity__WEBPACK_IMPORTED_MODULE_2___default.a,
-          { onPress: this.onPressBack(match) },
-          react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, {
-            style: { height: 100, width: 100 },
-            source: _ArrowBack_png__WEBPACK_IMPORTED_MODULE_12___default.a
-          })
-        )
-      )
+      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, { source: img, style: { position: 'absolute', left: '8%', bottom: 0, width: 500, height: 500 } })
     );
   }
 }
+
+const styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE_1___default.a.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'gold'
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10
+  }
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (Master);
 
 /***/ }),
 
@@ -401,6 +359,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _dotdotdot_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_dotdotdot_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _data_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./data.json */ "./views/Masters/data.json");
 var _data_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/Object.assign({}, _data_json__WEBPACK_IMPORTED_MODULE_5__, {"default": _data_json__WEBPACK_IMPORTED_MODULE_5__});
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../index.css */ "./index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_6__);
+
 
 
 
@@ -555,17 +516,6 @@ class Masters extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Masters);
-
-/***/ }),
-
-/***/ "./views/Masters/styles.css":
-/*!**********************************!*\
-  !*** ./views/Masters/styles.css ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
 
 /***/ }),
 

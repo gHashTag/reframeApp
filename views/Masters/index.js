@@ -4,6 +4,7 @@ import { slide as Menu } from 'react-burger-menu'
 import Master from './Master'
 import Dot from './dotdotdot.svg'
 import data from './data.json'
+import '../../index.css'
 
 function isNodejs() {
     return typeof window === "undefined"
