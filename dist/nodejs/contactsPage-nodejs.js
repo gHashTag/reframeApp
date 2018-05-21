@@ -123,11 +123,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-native-web/dist/exports/View */ "react-native-web/dist/exports/View");
 /* harmony import */ var react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-native-web/dist/exports/Image */ "react-native-web/dist/exports/Image");
-/* harmony import */ var react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../index.css */ "./index.css");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_5__);
-
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../index.css */ "./index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
@@ -139,7 +136,6 @@ __webpack_require__.r(__webpack_exports__);
 
 class Contacts extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
   render() {
-    const img = "http://www.cityretreat.ru/static/media/8.737bc909.png";
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
       react_native_web_dist_exports_View__WEBPACK_IMPORTED_MODULE_3___default.a,
       { style: styles.container },
@@ -148,11 +144,10 @@ class Contacts extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
         { style: { position: 'absolute', top: '50%', right: '15%' } },
         react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
           react_native_web_dist_exports_Text__WEBPACK_IMPORTED_MODULE_2___default.a,
-          { style: { fontFamily: 'Museo500', fontSize: 80, textAlign: 'right' } },
-          'Hello!!!!'
+          { style: { fontSize: 80, textAlign: 'right' } },
+          'Contacts'
         )
-      ),
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_native_web_dist_exports_Image__WEBPACK_IMPORTED_MODULE_4___default.a, { source: img, style: { position: 'absolute', left: '8%', bottom: 0, width: 500, height: 500 } })
+      )
     );
   }
 }
@@ -161,11 +156,6 @@ const styles = react_native_web_dist_exports_StyleSheet__WEBPACK_IMPORTED_MODULE
   container: {
     flex: 1,
     backgroundColor: 'gold'
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10
   }
 });
 
@@ -193,17 +183,6 @@ module.exports = __webpack_require__(/*! /Users/xyz/reframeApp/pages/contactsPag
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-native-web/dist/exports/Image":
-/*!******************************************************!*\
-  !*** external "react-native-web/dist/exports/Image" ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-native-web/dist/exports/Image");
 
 /***/ }),
 

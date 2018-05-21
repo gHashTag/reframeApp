@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react'
 import { StyleSheet, TouchableOpacity, Dimensions, Image, View, Text } from 'react-native'
 import _ from 'lodash'
 import data from './data.json'
-import { Header } from '../common'
 import ArrowNext from '../ArrowNext.png'
 import ArrowBack from '../ArrowBack.png'
 import '../../index.css'
@@ -15,12 +14,12 @@ class Master extends PureComponent {
     const img = "http://www.cityretreat.ru/static/media/8.737bc909.png"
     return (
       <View style={styles.container}>
+        <Image source={img} style={{ position: 'absolute', left: '8%', bottom: 0, width: 500, height: 500 }} />
         <View style={{ position: 'absolute', top: '50%', right: '15%' }}>
           <Text style={{ fontFamily: 'Museo500', fontSize: 80, textAlign: 'right' }} >
              Hello world 
           </Text>
         </View>
-         <Image source={img} style={{ position: 'absolute', left: '8%', bottom: 0, width: 500, height: 500 }} />
       </View>
     )
   }
